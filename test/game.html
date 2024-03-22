@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+        <title>game</title>
+        <link rel="stylesheet" href="css/game.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="js/game.js"></script>
+    </head>
+    <body>
+        <div class="text">
+            <div class="action">
+                <p style="text-align: center;">__choose your action !!!!__</p>
+                <p class="choices" id="attackbutton">Attack</p>
+                <p class="choices" id="protectbutton">Protect</p>
+                <p class="choices" id="escapebuttom">Escape (YOU'LL LOSE)</p>
+            </div>
+            <div class="status">
+                <p id="status" style="text-align: center;">__YOUR STATUS__</p>
+                <br>
+                <p Id="myhp"style="color:green;background-color: greenyellow;transition: 1s">HP</p>
+                <p style="color:green;background-color: aqua;transition: 1s">MP</p>
+            </div>
+        </div>
+        <div id="enemy">
+            <h3 id="enemyname"></h3>
+            <p id="enemyhp">HP</p>
+        </div>
+        <div class="bottom">
+            <div class="bottom-text">
+                <p id="result"></p>
+            </div>
+        </div>
+    </body>
+</html>
